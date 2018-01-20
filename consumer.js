@@ -4,4 +4,6 @@ let rabbit = jackrabbit(process.env.AMQP_URL)
 
 rabbit.default()
       .queue({ name: "sandbox-amqp-q" })
-      .consume(console.log, { noAck: true })
+      .consume(msg => console.log(`${msg}`), { noAck: true })
+      
+setTimeout(() => {}, Number.POSITIVE_INFINITY)
