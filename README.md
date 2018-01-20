@@ -1,3 +1,3 @@
 # sandbox-amqp
 
-Discovering the magics of AMQP through [RabbitMQ](https://www.rabbitmq.com).
+Discovering the magic of AMQP through [RabbitMQ](https://www.rabbitmq.com).
