@@ -2,7 +2,8 @@
   "name": "sandbox-amqp",
   "version": "1.0.0",
   "scripts": {
-    "start": "node index.js"
+    "start": "node consumer.js",
+    "publish": "node producer.js"
   },
   "dependencies": {
     "jackrabbit": "^4.3.0"
